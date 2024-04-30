@@ -1,6 +1,12 @@
 package Sorting;
-
 import java.util.Scanner;
+
+// Merge Sort
+// Time Complexity : O(n logn)
+
+/* Merge sort sorts the array by dividing the array into smaller parts recursively (divide function in this case)
+and then sorting and putting the elements back together in a sorted aray (conquer funciton in this case).
+*/
 
 public class MergeSort {
     public static void main(String[] args) {
