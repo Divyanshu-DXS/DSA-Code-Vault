@@ -1,11 +1,16 @@
 package Sorting;
 import java.util.Scanner;
 
-// Merge Sort
-// Time Complexity : O(n logn)
+// Quick Sort
+/* Time Complexity : 
+In worst case scenario where the array is sorted or if the pivot element selected is largest or smalles: O(n^2)
+Average : O(nlogn)
+*/
 
-/* Merge sort sorts the array by dividing the array into smaller parts recursively (divide function in this case)
-and then sorting and putting the elements back together in a sorted aray (conquer funciton in this case).
+/* Quick Sort sorts the array by selecting a pivot element and then paritioning the array into a left partitoin  and a right partition
+Left partition (  tores elements less than the pivot element's value )
+Right element ( stores element that are larger in value than that of pivot element's )
+Then performing swap on the pivot element within its correct position. 
 */
 
 public class QuickSort {
